@@ -1,0 +1,83 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+body {
+    font-family: 'Raleway', sans-serif ;
+    background-color: black;
+    overflow-x: hidden;
+   
+}
+.head{
+    background: url("../assets/Union.png") no-repeat;
+}
+.search{
+    box-shadow: 0px 4px 67px rgba(30, 235, 205, 0.6);
+}
+.header-tt{
+    background: rgba(2, 14, 12, 0.01);
+backdrop-filter: blur(40px);
+border-radius: 0px 0px 0px 10px;
+border-image: liner-gradient(to right, #BEFFF6, #020E0C)
+
+ ;
+}
+.form-cs{
+background: rgba(2, 14, 12, 0.01);
+backdrop-filter: blur(10px);
+border-radius: 10px 0px 0px 0px;
+border: 3px solid;
+border-image-source: linear-gradient(128.11deg, #BEFFF6 0%, #020E0C 44.44%);
+}
+.buyit{
+    background: black;
+    color:white
+}
+.inn{
+    background-image: url("../assets/Rectangle 51.png") ;
+}
+.back-photo{
+    background-image: url("../assets/Unio.png") ;   
+    background: rgba(2, 14, 12, 0.01);
+    backdrop-filter: blur(40px);
+    border-radius: 0px 0px 0px 10px;
+    border-image: liner-gradient(to right, #BEFFF6, #020E0C)
+}
+/* .line{
+ border: 3px solid ;
+border-image-source: linear-gradient(128.11deg, #BEFFF6 0%, #020E0C 44.44%);
+border-image-slice:1  0 0 1;
+} */
+.knopp{
+    box-shadow: 0px 4px 67px rgba(30, 235, 205, 0.6);
+    border-radius: 10px
+    
+}
+/* @media screen and (max-width:1015px){
+	html,body{overflow-x:hidden;}
+} */
+.border-gradient{
+    background: rgb(5,153,57);
+    background: linear-gradient(90deg, rgba(5,153,57,1) 29%, rgba(6,79,55,1) 77%, rgba(82,255,186,1) 100%);
+}
+
+
+  .dropdown-after {
+    visibility: visible;
+    z-index: 9;
+    height: 100%;
+    width: 100%;
+    background: rgba(2, 14, 12, 0.61);
+    backdrop-filter: blur(25px);
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    transition: slide 6s ease-in-out;
+    margin-top: 69px;
+}
+
+.footer{
+  background-image: url('../assets/Unio.png') no-repeat;
+}
