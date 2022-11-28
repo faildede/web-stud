@@ -2,7 +2,12 @@
 module.exports = {
   content: ['./public/**/*.html', './src/**/*.{vue,js,ts,jsx,tsx}', './node_modules/tw-elements/dist/js/**/*.js',  "./node_modules/flowbite/**/*.js", "./node_modules/flowbite/**/*.js"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'bluee': '#42A5F5',
+      },
+
+    },
   },
   screens:{
     sm:"480px",
@@ -15,4 +20,5 @@ module.exports = {
     require('tw-elements/dist/plugin'),
  
   ],
+  
 }
